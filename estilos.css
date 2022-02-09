@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+body {
+    color: rgb(255, 75, 210);
+}
+
+h1, p {
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Allison', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+
+h1:first-child {
+    color: rgb(255, 255, 255);
+}
+
+body :first-of-type {
+    color: rgb(255, 164, 235);
+}
+
+p:last-child {
+    color: rgb(244, 198, 255);
+}
+
+p:last-child:after {
+    content: ' Estoy ultimo!';
+   color:blueviolet;
+   font-size: 30px;
+}
+
